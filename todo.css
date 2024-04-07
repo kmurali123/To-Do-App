@@ -1,0 +1,36 @@
+
+#heading{
+  text-align: center;
+}
+
+.gridProperty{
+  display: grid;
+  grid-template-columns: 300px 250px 150px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin: 10px;
+  align-items: center;
+}
+
+#todoItems, #todoDates{
+  font-size: 20px;
+  padding: 10px 5px;
+}
+
+.addBtn{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+.deleteBtn{
+  background-color: rgb(222, 6, 6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 0px;
+  cursor: pointer;
+}
